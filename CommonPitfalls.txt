@@ -1,0 +1,24 @@
+Common pitfalls when getting started:
+
+1. This pluign will not run through FEBio Studio 2.
+
+ You will need to run the .feb file with [open with >> febio4]
+ or through the windows command prompt after registering the
+febio4 command using environment PATH variables. With the 
+command prompt open, navigate to the folder containing the 
+.feb and network files using cd [folder], then run the simulation
+using febio4 -i [filename].feb 
+ 
+ 2. FEBio says it failed loading the plugin due to invalid SDK 
+ version. 
+ 
+ Download and install the latest version of febio studio (febio
+ solver version 4.1.0) and click the checkbox to install the 
+ associated febio SDK. If this does not work, you may need to 
+ recompile the plugin .dll which can be done by downloading the 
+ VisualStudioFiles folder from GitHub and opening the .sln file
+ with VisualStudio. You will need to update the include and 
+ library directories for where the SDK was installed on your 
+ local machine, then rebuild the solution.  
+
+ 

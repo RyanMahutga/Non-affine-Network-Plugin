@@ -23,6 +23,11 @@ for more details.
 
 Interfacing the NaNS Plugin with FEBio: 
 =======================================
+NOTE: This plugin is intended to run separately from the FEBio Studio
+interface. You will need to run the .feb file using [open with >> febio4]
+or register febio4 as a windows command through the Environment PATH 
+variable so that you can run febio4 from the command window.
+
 In order to make this plugin work with FEBio, you need to include
  the .dll file (or .so file) in the location of the executable 
  FEBio4.exe. This is typically somewhere like 
