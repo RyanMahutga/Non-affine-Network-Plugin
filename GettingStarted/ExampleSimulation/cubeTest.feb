@@ -1,0 +1,265 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<febio_spec version="4.0">
+	<Module type="solid"/>
+	<Globals>
+		<Constants>
+			<T>0</T>
+			<P>0</P>
+			<R>8.31446</R>
+			<Fc>96485.3</Fc>
+		</Constants>
+	</Globals>
+	<Material>
+		<material id="1" name="Material1" type="PeriodicNetwork">
+			<netNum>1</netNum>
+			<netSolve>1</netSolve>
+			<netSave>0</netSave>
+			<E>10000</E>
+			<v>4.990000e-01</v>
+		</material>
+	</Material>
+	<Mesh>
+		<Nodes name="Object1">
+			<node id="1">-0.5,-0.5,0</node>
+			<node id="2">0.5,-0.5,0</node>
+			<node id="3">0.5,0.5,0</node>
+			<node id="4">-0.5,0.5,0</node>
+			<node id="5">-0.5,-0.5,1</node>
+			<node id="6">0.5,-0.5,1</node>
+			<node id="7">0.5,0.5,1</node>
+			<node id="8">-0.5,0.5,1</node>
+			<node id="9">-0.166666667,-0.5,0</node>
+			<node id="10">0.166666667,-0.5,0</node>
+			<node id="11">0.5,-0.5,0.333333333</node>
+			<node id="12">0.5,-0.5,0.666666667</node>
+			<node id="13">0.166666667,-0.5,1</node>
+			<node id="14">-0.166666667,-0.5,1</node>
+			<node id="15">-0.5,-0.5,0.666666667</node>
+			<node id="16">-0.5,-0.5,0.333333333</node>
+			<node id="17">0.5,-0.166666667,0</node>
+			<node id="18">0.5,0.166666667,0</node>
+			<node id="19">0.5,0.5,0.333333333</node>
+			<node id="20">0.5,0.5,0.666666667</node>
+			<node id="21">0.5,0.166666667,1</node>
+			<node id="22">0.5,-0.166666667,1</node>
+			<node id="23">0.166666667,0.5,0</node>
+			<node id="24">-0.166666667,0.5,0</node>
+			<node id="25">-0.5,0.5,0.333333333</node>
+			<node id="26">-0.5,0.5,0.666666667</node>
+			<node id="27">-0.166666667,0.5,1</node>
+			<node id="28">0.166666667,0.5,1</node>
+			<node id="29">-0.5,0.166666667,0</node>
+			<node id="30">-0.5,-0.166666667,0</node>
+			<node id="31">-0.5,-0.166666667,1</node>
+			<node id="32">-0.5,0.166666667,1</node>
+			<node id="33">-0.166666667,-0.5,0.333333333</node>
+			<node id="34">0.166666667,-0.5,0.333333333</node>
+			<node id="35">-0.166666667,-0.5,0.666666667</node>
+			<node id="36">0.166666667,-0.5,0.666666667</node>
+			<node id="37">0.5,-0.166666667,0.333333333</node>
+			<node id="38">0.5,0.166666667,0.333333333</node>
+			<node id="39">0.5,-0.166666667,0.666666667</node>
+			<node id="40">0.5,0.166666667,0.666666667</node>
+			<node id="41">0.166666667,0.5,0.333333333</node>
+			<node id="42">-0.166666667,0.5,0.333333333</node>
+			<node id="43">0.166666667,0.5,0.666666667</node>
+			<node id="44">-0.166666667,0.5,0.666666667</node>
+			<node id="45">-0.5,0.166666667,0.333333333</node>
+			<node id="46">-0.5,-0.166666667,0.333333333</node>
+			<node id="47">-0.5,0.166666667,0.666666667</node>
+			<node id="48">-0.5,-0.166666667,0.666666667</node>
+			<node id="49">-0.166666667,0.166666667,0</node>
+			<node id="50">0.166666667,0.166666667,0</node>
+			<node id="51">-0.166666667,-0.166666667,0</node>
+			<node id="52">0.166666667,-0.166666667,0</node>
+			<node id="53">-0.166666667,-0.166666667,1</node>
+			<node id="54">0.166666667,-0.166666667,1</node>
+			<node id="55">-0.166666667,0.166666667,1</node>
+			<node id="56">0.166666667,0.166666667,1</node>
+			<node id="57">-0.166666667,-0.166666667,0.333333333</node>
+			<node id="58">0.166666667,-0.166666667,0.333333333</node>
+			<node id="59">-0.166666667,0.166666667,0.333333333</node>
+			<node id="60">0.166666667,0.166666667,0.333333333</node>
+			<node id="61">-0.166666667,-0.166666667,0.666666667</node>
+			<node id="62">0.166666667,-0.166666667,0.666666667</node>
+			<node id="63">-0.166666667,0.166666667,0.666666667</node>
+			<node id="64">0.166666667,0.166666667,0.666666667</node>
+		</Nodes>
+		<Elements type="hex8" name="Part1">
+			<elem id="1">1,9,51,30,16,33,57,46</elem>
+			<elem id="2">9,10,52,51,33,34,58,57</elem>
+			<elem id="3">10,2,17,52,34,11,37,58</elem>
+			<elem id="4">30,51,49,29,46,57,59,45</elem>
+			<elem id="5">51,52,50,49,57,58,60,59</elem>
+			<elem id="6">52,17,18,50,58,37,38,60</elem>
+			<elem id="7">29,49,24,4,45,59,42,25</elem>
+			<elem id="8">49,50,23,24,59,60,41,42</elem>
+			<elem id="9">50,18,3,23,60,38,19,41</elem>
+			<elem id="10">16,33,57,46,15,35,61,48</elem>
+			<elem id="11">33,34,58,57,35,36,62,61</elem>
+			<elem id="12">34,11,37,58,36,12,39,62</elem>
+			<elem id="13">46,57,59,45,48,61,63,47</elem>
+			<elem id="14">57,58,60,59,61,62,64,63</elem>
+			<elem id="15">58,37,38,60,62,39,40,64</elem>
+			<elem id="16">45,59,42,25,47,63,44,26</elem>
+			<elem id="17">59,60,41,42,63,64,43,44</elem>
+			<elem id="18">60,38,19,41,64,40,20,43</elem>
+			<elem id="19">15,35,61,48,5,14,53,31</elem>
+			<elem id="20">35,36,62,61,14,13,54,53</elem>
+			<elem id="21">36,12,39,62,13,6,22,54</elem>
+			<elem id="22">48,61,63,47,31,53,55,32</elem>
+			<elem id="23">61,62,64,63,53,54,56,55</elem>
+			<elem id="24">62,39,40,64,54,22,21,56</elem>
+			<elem id="25">47,63,44,26,32,55,27,8</elem>
+			<elem id="26">63,64,43,44,55,56,28,27</elem>
+			<elem id="27">64,40,20,43,56,21,7,28</elem>
+		</Elements>
+		<Surface name="ZeroDisplacement1">
+			<quad4 id="1">4,24,49,29</quad4>
+			<quad4 id="2">24,23,50,49</quad4>
+			<quad4 id="3">23,3,18,50</quad4>
+			<quad4 id="4">29,49,51,30</quad4>
+			<quad4 id="5">49,50,52,51</quad4>
+			<quad4 id="6">50,18,17,52</quad4>
+			<quad4 id="7">30,51,9,1</quad4>
+			<quad4 id="8">51,52,10,9</quad4>
+			<quad4 id="9">52,17,2,10</quad4>
+		</Surface>
+		<Surface name="ZeroDisplacement2">
+			<quad4 id="1">1,9,33,16</quad4>
+			<quad4 id="2">9,10,34,33</quad4>
+			<quad4 id="3">10,2,11,34</quad4>
+			<quad4 id="4">16,33,35,15</quad4>
+			<quad4 id="5">33,34,36,35</quad4>
+			<quad4 id="6">34,11,12,36</quad4>
+			<quad4 id="7">15,35,14,5</quad4>
+			<quad4 id="8">35,36,13,14</quad4>
+			<quad4 id="9">36,12,6,13</quad4>
+		</Surface>
+		<Surface name="ZeroDisplacement3">
+			<quad4 id="1">4,29,45,25</quad4>
+			<quad4 id="2">29,30,46,45</quad4>
+			<quad4 id="3">30,1,16,46</quad4>
+			<quad4 id="4">25,45,47,26</quad4>
+			<quad4 id="5">45,46,48,47</quad4>
+			<quad4 id="6">46,16,15,48</quad4>
+			<quad4 id="7">26,47,32,8</quad4>
+			<quad4 id="8">47,48,31,32</quad4>
+			<quad4 id="9">48,15,5,31</quad4>
+		</Surface>
+		<Surface name="PrescribedDisplacement4">
+			<quad4 id="1">2,17,37,11</quad4>
+			<quad4 id="2">17,18,38,37</quad4>
+			<quad4 id="3">18,3,19,38</quad4>
+			<quad4 id="4">11,37,39,12</quad4>
+			<quad4 id="5">37,38,40,39</quad4>
+			<quad4 id="6">38,19,20,40</quad4>
+			<quad4 id="7">12,39,22,6</quad4>
+			<quad4 id="8">39,40,21,22</quad4>
+			<quad4 id="9">40,20,7,21</quad4>
+		</Surface>
+	</Mesh>
+	<MeshDomains>
+		<SolidDomain name="Part1" mat="Material1"/>
+	</MeshDomains>
+	<Boundary>
+		<bc name="ZeroDisplacement1" node_set="@surface:ZeroDisplacement1" type="zero displacement">
+			<x_dof>0</x_dof>
+			<y_dof>0</y_dof>
+			<z_dof>1</z_dof>
+		</bc>
+		<bc name="ZeroDisplacement2" node_set="@surface:ZeroDisplacement2" type="zero displacement">
+			<x_dof>0</x_dof>
+			<y_dof>1</y_dof>
+			<z_dof>0</z_dof>
+		</bc>
+		<bc name="ZeroDisplacement3" node_set="@surface:ZeroDisplacement3" type="zero displacement">
+			<x_dof>1</x_dof>
+			<y_dof>0</y_dof>
+			<z_dof>0</z_dof>
+		</bc>
+	</Boundary>
+	<Step>
+		<step id="1" name="Step1">
+			<Control>
+				<analysis>STATIC</analysis>
+				<time_steps>20</time_steps>
+				<step_size>0.05</step_size>
+				<plot_zero_state>0</plot_zero_state>
+				<plot_range>0,-1</plot_range>
+				<plot_level>PLOT_MAJOR_ITRS</plot_level>
+				<output_level>OUTPUT_MAJOR_ITRS</output_level>
+				<plot_stride>1</plot_stride>
+				<adaptor_re_solve>1</adaptor_re_solve>
+				<time_stepper type="default">
+					<max_retries>5</max_retries>
+					<opt_iter>11</opt_iter>
+					<dtmin>0</dtmin>
+					<dtmax>0.05</dtmax>
+					<aggressiveness>0</aggressiveness>
+					<cutback>0.5</cutback>
+					<dtforce>0</dtforce>
+				</time_stepper>
+				<solver type="solid">
+					<symmetric_stiffness>symmetric</symmetric_stiffness>
+					<equation_scheme>staggered</equation_scheme>
+					<equation_order>default</equation_order>
+					<optimize_bw>0</optimize_bw>
+					<lstol>0.9</lstol>
+					<lsmin>0.01</lsmin>
+					<lsiter>5</lsiter>
+					<max_refs>15</max_refs>
+					<check_zero_diagonal>0</check_zero_diagonal>
+					<zero_diagonal_tol>0</zero_diagonal_tol>
+					<force_partition>0</force_partition>
+					<reform_each_time_step>1</reform_each_time_step>
+					<reform_augment>0</reform_augment>
+					<diverge_reform>1</diverge_reform>
+					<min_residual>1e-20</min_residual>
+					<max_residual>0</max_residual>
+					<dtol>0.001</dtol>
+					<etol>0.01</etol>
+					<rtol>0</rtol>
+					<rhoi>-2</rhoi>
+					<alpha>1</alpha>
+					<beta>0.25</beta>
+					<gamma>0.5</gamma>
+					<logSolve>0</logSolve>
+					<arc_length>0</arc_length>
+					<arc_length_scale>0</arc_length_scale>
+					<qn_method type="BFGS">
+						<max_ups>10</max_ups>
+						<max_buffer_size>0</max_buffer_size>
+						<cycle_buffer>1</cycle_buffer>
+						<cmax>100000</cmax>
+					</qn_method>
+				</solver>
+			</Control>
+			<Boundary>
+				<bc name="PrescribedDisplacement4" node_set="@surface:PrescribedDisplacement4" type="prescribed displacement">
+					<dof>x</dof>
+					<value lc="1">0.2</value>
+					<relative>0</relative>
+				</bc>
+			</Boundary>
+		</step>
+	</Step>
+	<LoadData>
+		<load_controller id="1" name="LC1" type="loadcurve">
+			<interpolate>LINEAR</interpolate>
+			<extend>CONSTANT</extend>
+			<points>
+				<pt>0,0</pt>
+				<pt>0.05,0</pt>				
+				<pt>1,1</pt>
+			</points>
+		</load_controller>
+	</LoadData>
+	<Output>
+		<plotfile type="febio">
+			<var type="displacement"/>
+			<var type="stress"/>
+			<var type="relative volume"/>
+		</plotfile>
+	</Output>
+</febio_spec>
